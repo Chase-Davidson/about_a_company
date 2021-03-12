@@ -1,0 +1,94 @@
+/* Chase Davidson CSS for Art Peddler*/
+
+/*Background image with white border*/
+body{
+  background-color: rgba(255, 0, 0, 0.5);
+  border-color: white;
+  border-top: 25px;
+  border-bottom: 25px;
+  border-left: 25px;
+  border-right: 25px;
+
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* White Shadow Centered Title, Image background */
+h1 {
+  font-size: 50pt;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px grey;
+  padding-top: 25px;
+  padding-bottom: 300px;
+  background-image: url("pexels-paint_brush.jpeg");
+  background-color: #ffb6c1;
+  background-position: center;
+  position: relative;
+  top: 10px;
+}
+/*float image right w/ border */
+img {
+  padding-top: 10px;
+  border: 20px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+}
+/*Navigation bar with drop down for products to link to multiple pages
+hightlight and hover on the links stick to top*/
+nav {
+  display: contents;
+  color: white;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to black on hover */
+li a:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+/*footer always stays below the last image*/
+footer {
+  clear: both;
+  font-variant: small-caps;
+}
+/*colors for the facebook and instagram*/
+.fab {
+  color: rgba(0, 0, 255, 0.5);
+  background-color: White;
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/* Fixed Positioning*/
+.socialmedia {
+position: fixed;
+right: 25px;
+top: 10px;
+z-index: 100;
+}
